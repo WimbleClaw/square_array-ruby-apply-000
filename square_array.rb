@@ -5,5 +5,5 @@ def square_array(array)
 end
 
 def square_array(array)
-  array.collect {|i| new_array << i**2}
+  array.collect {|i| i**2}
 end
