@@ -5,7 +5,5 @@ def square_array(array)
 end
 
 def square_array(array)
-  new_array = []
-  array.each {|i| new_array << i**2}
-  new_array
+  array.coll {|i| new_array << i**2}
 end
